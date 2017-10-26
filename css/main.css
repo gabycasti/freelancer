@@ -1,3 +1,520 @@
 /*
  * Estilos de tu proyecto
  */
+
+ /** ---------ESTILOS PARA EL BODY------*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+ /** ---------ESTILOS PARA ENCABEZADO------*/
+.container {
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+
+}
+
+.container:before, .container:after {
+	content: " ";
+	display: table;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container:after {
+	clear: both;
+}
+
+/** ---------ESTILOS PARA EL MENU------*/
+nav{
+	background-color:#2c3e50;
+	width: 100%;
+	height: 110px;
+	position: fixed;
+	z-index: 1000;
+	color: #FFF;
+}
+
+nav .container h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+	display: inline-block; 
+
+}
+
+nav .container li a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding-top: -100px;
+
+}
+
+/** ---------LINK DEL MENU------*/
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #18BC9C;
+}
+
+/** ---------MENU------*/
+li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	list-style: none;
+	padding-top: 24px;
+	padding-right: 20px;
+	display: inline-block;
+}
+ul{
+	float: right;
+}
+
+/** ---------ESTILOS PARA EL MAIN------*/
+.main {
+	background: #18BC9C;
+	width: 100%;
+	height: 700px;
+	
+}
+
+.new {
+    padding-top: 170px;
+	text-align: center;
+}
+
+.main .new h1 {
+
+	font-family: 'Montserrat', sans-serif;
+ 	color:#fff;
+ 	font-size: 70px;
+ 	font-weight: 700;
+}
+
+.main .new h2 {
+
+	font-family: 'Montserrat', sans-serif;
+ 	color:#fff;
+ 	font-size: 30px;
+ 	font-weight: 700;
+
+}
+
+/** ---------GALERIA DE IMAGENES------*/
+.gallery{
+	text-align: center;
+}
+
+
+.gallery .titulo h2{
+
+	font-family: 'Montserrat', sans-serif;
+ 	color:#000;
+ 	font-size: 3em;
+ 	font-weight: 700;
+ 	
+
+}
+
+.gallery img{
+	width: 350px;
+	height: 252px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+
+.gallery.icon {
+	margin-bottom:20px;
+}
+
+.about {
+	background: #18BC9C;
+	width: 100%;
+	height: 650px;
+	clear: both;
+	text-align: center;
+	
+}
+/** ---------ESTILO PARA LA IMAGEN ESTRELLA ------*/
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-light:after, hr.star-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.6em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+hr.star-light, hr.star-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+
+
+/** ---------SECCION DEL MENU ABOUT------*/
+.about h2{
+	padding-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+ 	color:#fff;
+ 	font-size: 3em;
+ 	font-weight: 700;
+ 	
+
+}
+
+/** ---------ESTILO PARA LA ESTRELLA DE OTRO COLOR------*/
+hr.star-secondary {
+    border-color: white;
+}
+
+hr.star-light:after, hr.star-secondary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.6em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+}
+
+hr.star-secondary:after {
+    color: #fff;
+    background-color: #18BC9C;
+   
+}
+
+hr.star-light, hr.star-secondary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px #FFF;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+/* Termina la estrella */
+
+
+/** --------BLOQUE 1 Y BLOQUE 2 DE ABOUT------*/
+.bloque_1 {
+	width: 330px;
+	height: 180px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	padding-right: 20px;
+	line-height: 1.5em;
+	text-align: left;
+	float:left;
+	
+}
+
+
+.bloque_2 {
+    width: 330px;
+	height: 180px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	text-align: left;
+	float:left;
+}
+
+
+
+.conten_about {
+	padding-left: 360px;
+}
+
+
+/** ---------BOTON DE ABOUT------*/
+.boton h2 {
+	
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	padding-left:50px;
+	margin-top:200px;
+	
+}
+
+/** ---------FORMULARIO------*/
+.contacto {
+	text-align: center;
+}
+
+.contacto h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+
+}
+
+.formulario {
+  text-align: left;
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+.formulario input, textarea {
+  color: #868E99;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 10px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+
+/** ---------BOTON DEL FORMULARIO------*/
+.formulario .boton {
+  padding: 0;
+  border-radius: 15%;
+  width: 80px;
+  height: 50px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  background: #18bc9c;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-color: #18bc9c;
+  border-bottom-style: inset;
+  border-right-style: inset;
+}
+
+
+.formulario .boton:hover {
+  background: #107965;
+  border-color: #107965;
+}
+
+/** ---------INICIO DEL FOOTER------*/
+.footer {
+	
+	background: #2C3E50;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	height: 300px;
+	text-align: center !important;
+	padding-bottom: 0;
+	margin-top: 20px;
+}
+
+.footer > .contenedor > .row > .location > h1 {
+	font-size: 28px;
+
+}
+
+.footer > .contenedor > .row > .around > h1 {
+	font-size: 28px;
+
+}
+
+.footer > .contenedor > .row > .free > h1 {
+	font-size: 28px;
+
+}
+
+/**CONTENEDOR DEL FOOTER*/
+.contenedor {
+	width: 100%;
+    padding-right: 60px;
+    padding-left: 190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer p {
+	font-size:20px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/** ESTILO DEL PRIMER PARRAFO DEL FOOTER*/
+.footer .location {
+	text-align:center;
+	width: 250px;
+	padding-right: 20px;
+	float: left;
+}
+
+/** ESTILO DEL SEGUNDO PARRAFO DEL FOOTER*/
+.footer .around {
+	text-align: center;
+	/*width: 350px;*/
+	float:left;
+}
+
+.footer .icono_around {
+	padding-top: -60px;
+	text-align: center;
+	/*width: 350px;*/
+	float:left;
+}
+
+/** ESTILO DEL TERCER PARRAFO DEL FOOTER*/
+.footer .free {
+	text-align: center;
+	padding-right: 20px;
+	width: 350px;
+	float:left;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+
+
+}
+
+.btn-social {
+    font-size: 20px;
+    line-height: 45px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+.btn-outline {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border: solid 2px #fff;
+    background: 0 0;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+
+/* boton download */
+.btn-outline {
+    font-size: 20px;
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border: solid 2px #fff;
+    background: 0 0;
+}
+.boton {
+	margin-top: 300px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif; 
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #FFF;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    
+}
+
+.boton a:hover {
+	background-color: white;
+	color: #18BC9C; 
+}
+
+.around a:hover {
+	background-color: white;
+	color: #18BC9C; 
+}
+/** ---------LINK DE ABOUT FREELANCER STAR BOOSTRAP------*/
+.free a {
+	text-decoration: none;
+	color:#18BC9C;
+}
+
+.free  a:hover {
+	text-decoration: underline;
+	color:#18BC9C;
+}
+
+/** ---------COPYRIGTH DEL FOOTER------*/
+.copyrigth p {
+	padding-top: 10px;
+	padding-left: 264px;
+	font-size: 15px;
+
+
+
+
+
+
+
+
+
