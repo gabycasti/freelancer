@@ -412,16 +412,10 @@ hr {
 	float:left;
 }
 
-/** ESTILO DEL TERCER PARRAFO DEL FOOTER*/
-.footer .free {
-	text-align: center;
-	padding-right: 20px;
-	width: 350px;
-	float:left;
-}
-
+/** ESTILO ICONOS DE REDES SOCIALES DEL FOOTER*/
 .list-inline-item:not(:last-child) {
     margin-right: 5px;
+
 }
 
 .list-inline {
@@ -429,6 +423,7 @@ hr {
     list-style: none;
     width: 400px;
     margin-left: 30px;
+    margin-top: -30px;
 
 
 }
@@ -457,8 +452,15 @@ hr {
     display: inline-block;
 }
 
+/** ESTILO DEL TERCER PARRAFO DEL FOOTER*/
+.footer .free {
+	text-align: center;
+	padding-right: 20px;
+	width: 350px;
+	float:left;
+}
 
-/* boton download */
+/** BOTON DEL DOWNLOAD*/
 .btn-outline {
     font-size: 20px;
     margin-top: 15px;
@@ -506,8 +508,8 @@ hr {
 
 /** ---------COPYRIGTH DEL FOOTER------*/
 .copyrigth p {
-	padding-top: 10px;
-	padding-left: 264px;
+	 margin-top: 90px;
+	padding-left:355px;
 	font-size: 15px;
 
 
